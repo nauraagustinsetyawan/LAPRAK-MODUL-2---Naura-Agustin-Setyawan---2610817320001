@@ -1,0 +1,11 @@
+a = float(input("Masukkan nilai a: "))
+b = float(input("Masukkan nilai b: "))
+i = float(input("Masukkan nilai i: "))
+j = float(input("Masukkan nilai j: "))
+x = float(input("Masukkan nilai x: "))
+y = float(input("Masukkan nilai y: "))
+
+#Menghitung rumus: a - b * (i / j) - x + y
+hasil = (a - b) * i / j - (x + y)
+
+print(f"Output: {hasil:.3f}")
